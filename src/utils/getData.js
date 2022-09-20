@@ -1,4 +1,4 @@
-const token = 'Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzI3MzIzZThkYTUyNTAwMjFhOTdhNTAiLCJpYXQiOjE2NjM1MTMxNTB9.D3ULqax4ERvKpUP01q_Fq1J7NvffwivofsrJtTcCR6I';
+const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzI3MzIzZThkYTUyNTAwMjFhOTdhNTAiLCJpYXQiOjE2NjM1MTMxNTB9.D3ULqax4ERvKpUP01q_Fq1J7NvffwivofsrJtTcCR6I';
 const API = `https://coding-challenge-api.aerolab.co/products?token=${token}`;
 
 const getData = async (id) => {
